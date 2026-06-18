@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello</title>
+</head>
+<body>
+
+    <header>
+        <h1>Hello, World!</h1>
+        <h3>This is a small heading.</h3>
+
+        <nav>
+            <a href="/">Home</a> |
+            <a href="/about">About</a> |
+            <a href="2.html">Other Page</a> |
+            <a href="https://google.com">Google</a>
+        </nav>
+    </header>
+
+    <hr>
+
+    <main>
+
+        <section>
+            <h2>Introduction</h2>
+
+            <p>
+                This is a <br>
+                paragraph.
+            </p>
+
+            <p>
+                <b>This is bold text</b><br>
+                <u>This is underlined text</u>
+            </p>
+
+            <img src="photos.jpg" alt="Flower" width="150">
+        </section>
+
+        <hr>
+
+        <section>
+            <h2>Student Information</h2>
+
+            <table border="1">
+                <tr>
+                    <th>Name</th>
+                    <th>Age</th>
+                    <th>City</th>
+                </tr>
+
+                <tr>
+                    <td>Yogesh</td>
+                    <td>19</td>
+                    <td>Mumbai</td>
+                </tr>
+
+                <tr>
+                    <td>Varun</td>
+                    <td>30</td>
+                    <td>Delhi</td>
+                </tr>
+            </table>
+        </section>
+
+        <hr>
+
+        <section>
+            <h2>Registration Form</h2>
+
+            <form action="/register" method="post">
+
+                <label for="uname">Username:</label><br>
+                <input
+                    type="text"
+                    id="uname"
+                    name="username"
+                    placeholder="Enter username"
+                    required>
+                <br><br>
+
+                <label for="email">Email:</label><br>
+                <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="Enter email">
+                <br><br>
+
+                <label for="password">Password:</label><br>
+                <input
+                    type="password"
+                    id="password"
+                    name="password"
+                    placeholder="Enter password">
+                <br><br>
+
+                <label for="age">Age:</label><br>
+                <input
+                    type="number"
+                    id="age"
+                    name="age">
+                <br><br>
+
+                <label>Gender:</label><br>
+
+                <input type="radio" id="male" name="gender">
+                <label for="male">Male</label>
+
+                <input type="radio" id="female" name="gender">
+                <label for="female">Female</label>
+
+                <input type="radio" id="other" name="gender">
+                <label for="other">Other</label>
+
+                <br><br>
+
+                <label>Skills:</label><br>
+
+                <input type="checkbox" id="html" name="skills">
+                <label for="html">HTML</label>
+
+                <input type="checkbox" id="css" name="skills">
+                <label for="css">CSS</label>
+
+                <input type="checkbox" id="js" name="skills">
+                <label for="js">JavaScript</label>
+
+                <br><br>
+
+                <label for="country">Country:</label><br>
+                <select id="country" name="country">
+                    <option>India</option>
+                    <option>USA</option>
+                    <option>Canada</option>
+                    <option>UK</option>
+                </select>
+
+                <br><br>
+
+                <label for="bio">About You:</label><br>
+                <textarea
+                    id="bio"
+                    name="bio"
+                    rows="4"
+                    cols="40"
+                    placeholder="Tell us something about yourself"></textarea>
+
+                <br><br>
+
+                <button type="submit">Register</button>
+                <button type="reset">Reset</button>
+
+            </form>
+        </section>
+
+    </main>
+
+    <hr>
+
+    <aside>
+        <h3>Advertisement</h3>
+        <p>Your advertisement can appear here.</p>
+    </aside>
+
+    <hr>
+
+    <footer>
+        <p>&copy; 2025 My Site</p>
+    </footer>
+
+</body>
+</html>
