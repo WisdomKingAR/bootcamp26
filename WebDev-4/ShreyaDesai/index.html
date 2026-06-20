@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Portfolio</title>                                
+    </head>
+    <body>
+
+        <header> 
+        <h1>Hello! <br>I'm Shreya👋</h1>
+        <h3>Welcome to my Portfolio website.</h3>
+        <p>
+            I am an Aspiring Data science engineer and tech enthusiast,<br>
+            actively seeking internships in AI, ML and Data Science.
+        </p>
+         
+        <nav>
+            <i>Know more about me and my work👇</i><br>
+            <a href="https://www.instagram.com/shreyyyyaaaa._/">Instagram</a> |
+            <a href="https://www.linkedin.com/in/shreya-desai-295a52376/">LinkedIn</a> |
+            <a href="https://leetcode.com/u/ShreyaDesai10/">Leetcode</a> |
+            <a href="https://google.com">Google</a> |
+        </nav>
+
+        <hr>
+     </header>
+       <section>
+        <h2>About me🖼️</h2>
+        <p>
+            Exhilarated to explore the world of tech with my enthusiam and vivid imagination about how things work,<br>
+            I am deeply curious about how AI systems work and how to make one work.<br> I also love solving maths and 
+            logic puzzles which has made me inclined towards Competitive programming.<br>My goal is to develop my skills
+            and make a pursuit which will grab me a job in top companies and<br> Ofcourse! feed my hunger towards 
+            this field.
+        </p>
+       </section>
+       <hr>
+       <section>
+        <h2>Skills🔧</h2>
+        <p>
+            <ul>
+            <li>C++ Intermediate</li> 
+            <li>Python Basic</li>
+            <li>Java Intermediate</li>
+            <li>Problem solving</li>
+            <li>Basics of prompt engineering</li> 
+            </ul>
+            
+        </p>
+       </section>
+       <hr>
+       <section>
+        <h2>Education📖</h2>
+            <ul>
+            <li>Canossa High Scool(till 10th)</li> 
+            <li>Pioneer Junior College(till 12th)</li>
+            <li>Dwarkadas J Sanghvi College of Engineering(Btech in AI&DS)</li>
+            
+            </ul>
+       </section>
+       <hr>
+       <section>
+        <h2>Achievements💪</h2>
+        <table border="1">
+            <tr>
+                <th>
+                    Year
+                </th>
+                <th>
+                    Grade
+                </th>
+            </tr>
+            <tr>
+                <td>
+                    10th
+                </td>
+                <td>
+                    93.40%
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    12th
+                </td>
+                <td>
+                    87.67%
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    SEM 1
+                </td>
+                <td>
+                    9.89 CGPA
+                </td>
+            </tr>
+
+        </table>
+        <ul>
+            <li>Participated in CyberCypher 2026 by MPSTME and went to the final round<br>
+                by comming in <b>top 30 teams of 200</b>.</li>
+        </ul>
+       </section>
+       <hr>
+       <section>
+        <h2>
+            Hobbies🎶
+
+        </h2>
+         <ol>
+            <li>Composition</li>
+            <li>Dancing</li>
+            <li>Reading</li>
+        </ol>
+       </section>
+       
+       <hr>
+
+       <section>
+        <h2>Goals🎯</h2>
+         <ol>
+            <li>Solve 100 leetocde questions by 15th July.</li>
+            <li>Complete WEB DEV by end of vacation with 2 projects.</li>
+            <li>Participate more in contests.</li>
+        </ol>
+       </section>
+       <hr>
+       <section>
+        <label for="bio">Anything more which I can add in my portfolio?</label><br><br>
+        <textarea placeholder="Suggestions"></textarea><br>
+        <button type="submit">Submit</button>
+       </section>
+       <hr>
+       
+         <aside>
+        <h3>Advertisement🗒️</h3>
+        <p>Your advertisement can appear here.</p>
+    </aside>
+       <hr>
+       <hr>
+       <footer>
+        <p>&copy; 2026 My Site</p>
+       </footer>
+    </body>
+</html>
