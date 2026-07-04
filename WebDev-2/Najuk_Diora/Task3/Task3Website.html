@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial">
+        <title>Travel Page</title>
+        <link rel="stylesheet" href="styles.css">
+        <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    </head>
+    <body class="bg-gray-100 text-gray-400 font-sans">
+        <nav class="sticky top-0 z-50 bg-white border-b border-gray-300 text-gray-900 px-8 py-3 flex items-center justify-between">
+            <p class="text-xl"><b>INDOTRAVI</b></p>
+            <ul class="flex gap-8 text-xm">
+                <li><button class="hover:bg-gray-400 rounded-full p-2 transition duration-300"><a href="#about" class="hover:text-white transition duration-300">About</a></button></li>
+                <li><button class="hover:bg-gray-400 rounded-full p-2 transition duration-300"><a href="#services" class="hover:text-white transition duration-300">Services</a></button></li>
+                <li><button class="hover:bg-gray-400 rounded-full p-2 transition duration-300"><a href="#packages" class="hover:text-white transition duration-300">Packages</a></button></li>
+                <li><button class="hover:bg-gray-400 rounded-full p-2 transition duration-300"><a href="#contact" class="hover:text-white transition duration-300">Contact</a></button></li>
+            </ul>
+            <div class="flex gap-8">
+                <button class="border rounded-full p-2">
+                <div class="flex flex-nowrap">
+                   <img src="world icon.png" width="22">
+                <select>
+                    <option selected disabled>Language</option>
+                    <option value="English">English</option>
+                    <option value="Indonesian">Indonesian</option>
+                </select> 
+                </div>
+            </button>
+            <button class="bg-black text-white rounded-full px-4 py-2 hover:translate-0.5 transition duration-300"><a href="#login">Login</a></button> 
+            </div>
+        </nav>
+        <section class="w-full">
+            <section class="relative mx-auto w-[98%] rounded-xl overflow-hidden">
+                <img src="Laguna Inca Lake.png" class="w-full">  
+                <div class="absolute inset-0 bg-linear-to-b from-black/70 to-black/20 flex flex-col items-center justify-center gap-4">
+                    <h2 class="text-8xl text-white">Extraordinary natural and</h2>
+                    <h2 class="text-8xl text-white">cultural charm</h2>
+                    <h3 class="text-2xl text-white">Exploring Indonesia is an unforgettable adventure.</h3>
+                    &nbsp;
+                    <div class="rounded-full overflow-hidden bg-white/20 backdrop-blur flex gap-5 text-xl text-white px-1 py-2">
+                        <input type="date" class="hover:rounded-full hover:bg-white/30 transition duration-300">
+                        <div class="flex items-center gap-2 border-l-2 border-r-2 px-4 hover:rounded-full hover:bg-white/30 transition duration-300">
+                            <img src="wallet icon.png" class="w-4.5 h-4.5">
+                            <select>
+                            <option selected disabled class="text-black">Budget</option>
+                            <option class="text-black">Below Rs.50,000</option>
+                            <option class="text-black">Rs.50,000-Rs.70,000 </option>
+                            <option class="text-black">Rs.70,000-Rs.1,00,000</option>
+                            <option class="text-black">Rs.1,00,000-Rs.1,30,000</option>
+                            <option class="text-black">Rs.1,30,000-Rs.1,60,000</option>
+                            <option class="text-black">Above Rs.1,60,000</option>
+                        </select>
+                        </div>
+                        <div class="flex items-center hover:rounded-full hover:bg-white/30 transition duration-300">
+                            <img src="person icon.png" class="w-5">
+                            <select>
+                                <option selected disabled class="text-black">Guest</option>
+                                <option class="text-black">1</option>
+                                <option class="text-black">2</option>
+                                <option class="text-black">3-6</option>
+                                <option class="text-black">7-10</option>
+                                <option class="text-black">11-15</option>
+                                <option class="text-black">Above 16</option>
+                            </select>
+                        </div>
+                        <button class="bg-white text-black px-6 py-2 rounded-full hover:border-2 hover:-translate-0.5 transition duration-300">Search</button>
+                    </div>
+                </div>
+            </section>
+            <div class="-translate-y-10 flex items-center justify-center gap-8">
+                <button class="rounded-lg bg-white px-14 py-3 shadow-xl/30 hover:translate-x-1 hover:-translate-y-1 transition duration-300">
+                    <span class="text-black text-2xl text-shadow-lg/20"><b>10M+</b></span>
+                    <p class="text-xl">Total Customers</p>
+                </button>
+                <button class="rounded-lg bg-white px-14 py-3 shadow-xl/30 hover:translate-x-1 hover:-translate-y-1 transition duration-300">
+                    <span class="text-black text-2xl text-shadow-lg/20"><b>09+</b></span>
+                    <p class="text-xl">Years of Experience</p>
+                </button>
+                <button class="rounded-lg bg-white px-14 py-3 shadow-xl/30 hover:translate-x-1 hover:-translate-y-1 transition duration-300">
+                    <span class="text-black text-2xl text-shadow-lg/20"><b>12K</b></span>
+                    <p class="text-xl">Total Destinations</p>
+                </button>
+                <button class="rounded-lg bg-white px-14 py-3 shadow-xl/30 hover:translate-x-1 hover:-translate-y-1 transition duration-300">
+                    <span class="text-black text-2xl text-shadow-lg/20"><b>5.0</b></span>
+                    <p class="text-xl">Average Rating</p>
+                </button>
+            </div>
+            <section class="relative mx-auto w-full flex flex-col items-center justify-center">
+                <div class="absolute top-20 w-[90%] flex items-center justify-between">
+                    <p class="flex flex-col">
+                        <span class="text-xl">Tour packages</span>
+                        <span class="text-6xl text-black"><b>Our tourist destination</b></span>
+                    </p>
+                    <p class="flex flex-col">
+                        <span class="text-xl">Our tourist destinations offer an unrivaled blend of</span>
+                        <span class="text-xl">natural beauty and cultural richness.</span>
+                    </p>
+                </div>
+                <div class="mt-60 flex items-center justify-center gap-10 text-white">
+                    <div class="relative rounded-2xl overflow-hidden shadow-xl/60">
+                      <img src="Bali beach.jpg" class="w-90 h-130 hover:scale-105 transition duration-300">
+                      <span class="absolute top-4 left-4 rounded-full px-4 py-1 bg-white/30 backdrop-blur">7 Days</span>
+                      <span class="absolute top-4 right-4 rounded-full px-3 py-1 bg-white/30 backdrop-blur">⭐ 4.9</span> 
+                      <div class="absolute bottom-3 left-3 w-84 rounded-2xl p-3 bg-black/60 backdrop-blur flex flex-col hover:bg-white/30 transition duration-300">
+                        <span class="text-white/70 text-base">23 AUGUST-29 AUGUST</span>
+                        <p class="text-xl flex justify-between">
+                            <span>Bali Tour Package</span>
+                            <span class="text-2xl">$285</span>
+                        </p>
+                      </div> 
+                    </div>
+                    <div class="relative rounded-2xl overflow-hidden shadow-xl/60">
+                      <img src="Canyon.jpg" class="w-90 h-130 hover:scale-105 transition duration-300">
+                      <span class="absolute top-4 left-4 rounded-full px-4 py-1 bg-white/30 backdrop-blur">5 Days</span>
+                      <span class="absolute top-4 right-4 rounded-full px-3 py-1 bg-white/30 backdrop-blur">⭐ 4.8</span> 
+                      <div class="absolute bottom-3 left-3 w-84 rounded-2xl p-3 bg-black/60 backdrop-blur flex flex-col hover:bg-white/30 transition duration-300">
+                        <span class="text-white/70 text-base">23 AUGUST-27 AUGUST</span>
+                        <p class="text-xl flex justify-between">
+                            <span>Java Tour Package</span>
+                            <span class="text-2xl">$218</span>
+                        </p>
+                      </div>   
+                    </div>
+                    <div class="relative rounded-2xl overflow-hidden shadow-xl/60">
+                      <img src="Swing.jpg" class="w-90 h-130 hover:scale-105 transition duration-300">
+                      <span class="absolute top-4 left-4 rounded-full px-4 py-1 bg-white/30 backdrop-blur">3 Days</span>
+                      <span class="absolute top-4 right-4 rounded-full px-3 py-1 bg-white/30 backdrop-blur">⭐ 4.9</span> 
+                      <div class="absolute bottom-3 left-3 w-84 rounded-2xl p-3 bg-black/60 backdrop-blur flex flex-col hover:bg-white/30 transition duration-300">
+                        <span class="text-white/70 text-base">23 AUGUST-25 AUGUST</span>
+                        <p class="text-xl flex justify-between">
+                            <span>Solo Tour Package</span>
+                            <span class="text-2xl">$163</span>
+                        </p>
+                      </div>   
+                    </div>
+                </div>
+                <button class="mt-9 rounded-full bg-black text-white px-10 py-2">
+                    <span>View More</span>
+                    <span class="animate-bounce">→</span>
+                </button>
+            </section>
+            <section class="relative mx-auto mt-30 w-[90%] gap-12 flex items-center justify-center">
+                <div class="relative rounded-2xl overflow-hidden shadow-xl/60">
+                    <img src="cycling.jpg" class="w-245 h-170 hover:scale-105 hover:brightness-80 transition duration-300">
+                    <p class="absolute bottom-3 left-3 text-white text-xl">Every journey tells a story- choose a destination where every moment is filled with adventure, serenity and unforgettable memories.</p>
+                </div>
+                <div class="flex flex-col gap-4">
+                    <span class="text-xl">How it works?</span>
+                    <h3 class="text-black text-6xl font-semibold">One click for you</h3>
+                    &nbsp;
+                    <div class="px-3 py-2 flex gap-3 rounded-2xl hover:bg-emerald-200/30 hover:border-4 hover:border-emerald-500 transition duration-300">
+                        <img src="search icon.jpg" class="w-10 h-10">
+                        <p class="flex flex-col gap-2">
+                            <span class="text-2xl text-black font-semibold">Find your destination</span>
+                            <span class="text-xl">Embark on a journey to discover your dream destination, where adventure and relaxation await.</span>
+                        </p>
+                    </div>
+                    <div class="px-3 py-2 flex gap-3 rounded-2xl hover:bg-emerald-200/30 hover:border-4 hover:border-emerald-500 transition duration-300">
+                        <img src="tickets.jpg" class="w-10 h-10">
+                        <p class="flex flex-col gap-2">
+                            <span class="text-2xl text-black font-semibold">Book a ticket</span>
+                            <span class="text-xl">Ensure a smooth travel experience by booking tickets to your preferred destination via our booking platform.</span>
+                        </p>
+                    </div>
+                    <div class="px-3 py-2 flex gap-3 rounded-2xl hover:bg-emerald-200/30 hover:border-4 hover:border-emerald-500 transition duration-300">
+                        <img src="payment.jpg" class="w-10 h-10">
+                        <p class="flex flex-col gap-2">
+                            <span class="text-2xl text-black font-semibold">Make payment</span>
+                            <span class="text-xl">We offer a variety of payment options to meet your preferences and ensure a hassle-free transaction process.</span>
+                        </p>
+                    </div>
+                    <div class="px-4 py-2 flex gap-3 rounded-2xl hover:bg-emerald-200/30 hover:border-4 hover:border-emerald-500 transition duration-300">
+                        <img src="explore tabs.png" class="w-10 h-10">
+                        <p class="flex flex-col gap-2">
+                            <span class="text-2xl text-black font-semibold">Explore destination</span>
+                            <span class="text-xl">You'll be immersed in a captivating tapestry of sights, sounds and tastes as you wind your way through the ancient streets.</span>
+                        </p>
+                    </div>
+                </div>
+            </section>
+        </section>
+        <footer class="mt-20 flex flex-col items-center justify-center py-6 bg-neutral-900 text-white text-xl">
+            <div class="flex gap-60">
+                <p class="flex flex-col">
+                    <span>About</span>
+                    <span><a href="#AboutUs" class="text-white/60 hover:underline">About Us</a></span>
+                    <span><a href="#Blog" class="text-white/60 hover:underline">Blog</a></span>
+                </p>
+                <p class="flex flex-col">
+                    <span>Support</span>
+                    <span><a href="#ContactUs" class="text-white/60 hover:underline">Contact Us</a></span>
+                    <span><a href="#OnlineChat" class="text-white/60 hover:underline">Online Chat</a></span>
+                </p>
+                <p class="flex flex-col">
+                    <span>FAQ</span>
+                    <span><a href="#Account" class="text-white/60 hover:underline">Account</a></span>
+                    <span><a href="#Booking" class="text-white/60 hover:underline">Booking</a></span>
+                </p>
+            </div>
+            &nbsp;
+            <span class="text-base">©2026 INDOTRAVI, All Rights Reserved</span>
+        </footer>
+    </body>

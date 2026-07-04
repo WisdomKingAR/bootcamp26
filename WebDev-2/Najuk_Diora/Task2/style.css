@@ -1,0 +1,83 @@
+.card{
+    width: 560px;
+    height: 720px;
+    border: 20px solid yellow;
+    border-radius: 30px;
+    background-color: crimson;
+}
+.logo{
+    margin-top: -11px;
+    margin-left: -17px;
+}
+.topline{
+    top: 10;
+    font-size: 13px;
+}
+h1{
+    font-size: 30px;
+    font-weight: 700;
+}
+h3{
+    margin-top: 19px;
+    font-size: 14px;
+    font-weight: 700;
+}
+.number{
+    font-size: 30px;
+    font-weight: 500;
+
+}
+button{
+    font-size: 15px;
+    font-weight: 700;
+    font-style: italic;
+}
+h4{
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 30px;
+    color: #0058A8;
+}
+.sentence{
+    margin-top: -5px;
+    font-size: 17px;
+}
+.blackflame{
+    margin-top: -5px;
+    margin-bottom: 5px;
+}
+#of{
+    margin-top: -11px;
+}
+.redflame{
+    margin-top: -12px;
+    margin-left: -12px;
+    width: 52px;
+}
+.spin{
+    margin-top: 5px;
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 30px; 
+}
+#spinnumber{
+    margin-top: 5px;
+    margin-left: 130px;
+}
+.words{
+    margin-top: 5px;
+    font-size: 13px;
+}
+.smalllogos{
+    width: 26px;
+}
+.colorless{
+    margin-left: -13px;
+    margin-top: -9px;
+    width: 42px;
+}
+.para{
+    font-size: 12px;
+}
