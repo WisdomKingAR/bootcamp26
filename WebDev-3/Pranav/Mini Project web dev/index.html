@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CineBook - Movie Booking</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body class="bg-gray-950 text-gray-100 font-sans min-h-screen flex flex-col">
+
+  <!-- Navbar -->
+  <header class="bg-gradient-to-r from-indigo-700 via-purple-700 to-indigo-700 text-white p-4 shadow-lg">
+    <div class="container mx-auto flex justify-between items-center">
+      <h1 class="text-2xl font-bold tracking-wide">🎬 CineBook</h1>
+      <span class="text-sm bg-white/10 px-3 py-1 rounded-full border border-white/20">Simple & Fast</span>
+    </div>
+  </header>
+
+  <!-- Filter Bar Container -->
+  <section class="bg-gray-900 border-b border-gray-800 p-4 sticky top-0 z-10 shadow-lg">
+    <div class="container mx-auto grid grid-cols-1 md:grid-cols-4 gap-4">
+      
+      <!-- Search -->
+      <div>
+        <label class="block text-xs font-semibold text-gray-400 uppercase mb-1">Search Movie</label>
+        <input type="text" id="search-input" placeholder="Type movie name..." 
+               class="w-full bg-gray-800 border border-gray-700 text-gray-100 rounded p-2 text-sm focus:outline-none focus:border-indigo-500 placeholder-gray-500">
+      </div>
+
+      <!-- City Dropdown -->
+      <div>
+        <label class="block text-xs font-semibold text-gray-400 uppercase mb-1">City</label>
+        <select id="city-filter" class="w-full bg-gray-800 border border-gray-700 text-gray-100 rounded p-2 text-sm focus:outline-none focus:border-indigo-500">
+          <option value="">All Cities</option>
+          <option value="Mumbai">Mumbai</option>
+          <option value="Delhi">Delhi</option>
+          <option value="Bengaluru">Bengaluru</option>
+          <option value="Pune">Pune</option>
+        </select>
+      </div>
+
+      <!-- Genre Dropdown -->
+      <div>
+        <label class="block text-xs font-semibold text-gray-400 uppercase mb-1">Genre</label>
+        <select id="genre-filter" class="w-full bg-gray-800 border border-gray-700 text-gray-100 rounded p-2 text-sm focus:outline-none focus:border-indigo-500">
+          <option value="">All Genres</option>
+          <option value="Action">Action</option>
+          <option value="Sci-Fi">Sci-Fi</option>
+          <option value="Drama">Drama</option>
+          <option value="Comedy">Comedy</option>
+          <option value="Thriller">Thriller</option>
+          <option value="Horror">Horror</option>
+        </select>
+      </div>
+
+      <!-- Showtime Dropdown -->
+      <div>
+        <label class="block text-xs font-semibold text-gray-400 uppercase mb-1">Showtime</label>
+        <select id="time-filter" class="w-full bg-gray-800 border border-gray-700 text-gray-100 rounded p-2 text-sm focus:outline-none focus:border-indigo-500">
+          <option value="">All Showtimes</option>
+          <option value="12:00 PM">12:00 PM</option>
+          <option value="3:30 PM">3:30 PM</option>
+          <option value="7:00 PM">7:00 PM</option>
+        </select>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Main Movie Grid Content -->
+  <main class="container mx-auto px-4 py-8 flex-1">
+    <div id="movie-grid" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+      <!-- JavaScript will inject cards here -->
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 border-t border-gray-800 text-gray-400 text-sm py-6 mt-8">
+    <div class="container mx-auto px-4 flex flex-col sm:flex-row justify-between items-center gap-2">
+      <p>🎬 CineBook — Lights,Camera and Action.</p>
+      <p class="text-gray-500">© 2026 CineBook. Not affiliated with any real ticketing service.</p>
+    </div>
+  </footer>
+
+  <!-- Details & Booking Modal Backdrop (Hidden by Default) -->
+  <div id="booking-modal" class="fixed inset-0 bg-black/70 z-50 hidden items-center justify-center p-4">
+    <!-- JavaScript will inject the modal layout content here dynamically -->
+  </div>
+
+  <script type="module" src="./main.js"></script>
+</body>
+</html>
