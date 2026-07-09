@@ -1,0 +1,243 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+nav {
+  position: sticky;
+  top: 0;
+  background: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 80px;
+}
+
+.logo img {
+  display: block;
+}
+
+.navlink {
+  display: flex;
+  gap: 30px;
+}
+
+.navlink a {
+  text-decoration: none;
+  color: grey;
+  font-size: 16px;
+}
+
+.navlink a:hover {
+  color: #387ed1;
+}
+
+.navline {
+  margin: 0;
+  border: none;
+  border-top: 1px solid #c2bfbf71;
+}
+
+.Hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 40px 20px 60px;
+}
+
+.HeroImage {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.HeroText h1 {
+  font-size: 44px;
+  color: #202124;
+  margin-bottom: 10px;
+}
+
+.HeroText h2 {
+  font-size: 22px;
+  color: #5f6368;
+  font-weight: normal;
+  margin-bottom: 30px;
+  max-width: 900px;
+}
+
+.SignUp {
+  background-color: #387ed1;
+  color: white;
+  border: none;
+  padding: 14px 30px;
+  width: 250px;
+  height: 55px;
+  font-size: 20px;
+  border-radius: 4px;
+}
+
+.SignUp:hover {
+  background-color: black;
+}
+
+.trust-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+  padding: 40px 80px 60px 80px;
+}
+
+.trust-text {
+  color: #424242;
+}
+
+.trust-text h1 {
+  font-size: 36px;
+  margin-bottom: 25px;
+}
+
+.trust-text h2 {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.trust-text p {
+  font-size: 16px;
+  line-height: 1.7;
+  margin-bottom: 18px;
+}
+
+.trust-image {
+  margin-right: 0;
+}
+
+.kite-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+  background-color: rgb(234, 252, 246);
+  padding: 0px 80px;
+  margin: 10px 0;
+}
+
+.kite-text {
+  flex: 1;
+}
+
+.kite-text p {
+  color: #424242;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.pricing-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+  padding: 40px 80px 50px 80px;
+}
+
+.pricing-text {
+  margin-left: 0;
+}
+
+.pricing-text h1 {
+  color: #424242;
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.pricing-text p {
+  color: #424242;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.pricing-image {
+  margin-right: 0;
+}
+
+.education-section {
+  display: flex;
+  justify-content: space-between;
+  gap: 60px;
+  align-items: center;
+  padding: 40px 80px 60px 80px;
+}
+
+.education-image {
+  margin-left: 0;
+}
+
+.education-text {
+  margin-right: 0;
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.education-text h1 {
+  color: #424242;
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.education-text p {
+  color: #424242;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.account-section {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 60px;
+}
+
+.account-section h1 {
+  font-size: 36px;
+  color: #202124;
+  margin-bottom: 15px;
+}
+
+.account-section h3 {
+  font-size: 20px;
+  color: #5f6368;
+  font-weight: normal;
+  margin-bottom: 30px;
+}
+
+.quick-links-image img {
+  width: 100%;
+  display: block;
+}
+
+.footer-text {
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+.footer-text p {
+  color: gray;
+  font-size: 12px;
+  line-height: 1.6;
+  margin-bottom: 14px;
+}
+
+.footer-links {
+  background-color: #f5f5f5;
+  padding: 18px 25px;
+  text-align: center;
+}
+
+.footer-links span {
+  color: #777777;
+  font-size: 12px;
+  margin-left: 20px;
+}
+
+.blue-text {
+  color: blue;
+}
