@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial">
+        <title>Pokemon Card</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,400;0,500;0,600;0,700;0,800;1,700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <section class="card">
+            <section class="relative w-full h-full">
+              <div style="display: flex;">
+                <img src="Firefly.png" width="130" class="logo absolute z-10"> 
+                <div class="absolute top-1 left-26 right-8 flex-col">
+                    <p class="topline">
+                    <b><i>Evolves from Charmeleon</i></b>
+                    &nbsp; 
+                    Put Charizard on the Stage <b>| </b>Pokémon
+                    </p>
+                    <div class="h-1 bg-yellow-500 self-stretch"></div> 
+                    <div class="top-2 h-1 mt-1 bg-yellow-500 self-stretch"></div>
+                    <div class="absolute left-2 flex gap-6">
+                        <h1>Charizard</h1>
+                        <h3>LV.76</h3>
+                        <div class="w-1 bg-black"></div>
+                        <h2 class="number">50 HP</h2>
+                    </div>    
+                </div>
+              </div> 
+              <img src="Flame.png" width="70" class="absolute top-0 right-4">
+              <img src="Charizard.jpg" width="460" class="absolute top-20 left-1/2 -translate-x-1/2 border-10 border-yellow-500 shadow-black/80 shadow-2xl hover:scale-103 transition duration-200">
+              <button class="absolute top-99 left-1/2 -translate-x-1/2 text-nowrap bg-yellow-500 rounded-md border-2 border-yellow-300 hover:bg-yellow-200 transition duration-200">
+                NO. 006 Flame Pokémon HT: 5'07'' WT: 199.5 lbs.</button>
+                <div class="absolute top-105 left-8 w-115">
+                   <h4>Ability: Energy Burn</h4>
+                   <div class="flex flex-nowrap">
+                    <p class="sentence">All Energy attached to this Pokémon are</p>
+                    &nbsp;
+                    <img src="Black flame.png" class="blackflame" width="25">
+                    &nbsp;
+                    <p class="sentence">Energy instead</p>
+                   </div>
+                   <p class="sentence" id="of">of their usual type.</p>
+                   <div class="h-0.5 bg-black"></div>
+                   <div class="flex">
+                    <img src="Flame.png" class="redflame">
+                    <img src="Flame.png" class="redflame">
+                    <img src="Flame.png" class="redflame">
+                    <img src="Flame.png" class="redflame">
+                    &nbsp;&nbsp;&nbsp;
+                    <p class="spin">Fire Spin</p>
+                    <p class="number" id="spinnumber">200</p>
+                   </div>
+                   <p class="sentence">Discard 3 Energy attached to this Pokémon.</p>
+                   <div class="flex">
+                    <div>
+                        <div class="h-1 bg-black"></div>
+                        <div class="flex">
+                            <p class="words"><b>weakness</b></p>
+                            &nbsp;
+                            <img src="water.png" class="smalllogos">
+                            <p class="words"><b>× 2</b></p>
+                            &nbsp;&nbsp;
+                            <p class="words"><b>resistance</b></p>
+                            &nbsp;
+                            <img src="Fighting.png" class="smalllogos">
+                            <p class="words"><b>- 20</b></p>
+                        </div>
+                        <div class="h-0.5 bg-black"></div>
+                        <div class="flex">
+                            <p class="words"><b>retreat cost</b></p>
+                            &nbsp;&nbsp;&nbsp;
+                            <img src="Colorless.png" class="colorless">
+                            <img src="Colorless.png" class="colorless">
+                            <img src="Colorless.png" class="colorless">
+                        </div>
+                    </div>
+                    <div class="absolute left-70 border-yellow-300 rounded-md border-2 p-1">
+                        <p class="para"><i>Its wings can carry this Pokémon close to an altitude of 4,600 feet. It blows out fire at very high temperatures.</i></p>
+                    </div>
+                   </div>
+                   <div class="h-1 bg-black"></div>
+                </div>
+            </section>
+        </section>
+    </body>
+</html>
